@@ -1,7 +1,7 @@
 {
 	"name": "Panel View for Play Music",
 	"description": "Panelized extension for Play Music",
-	"version": "1.2.2",
+	"version": "2.0",
 	"background": {
 		"scripts": [
 			"js/background.js"
@@ -21,7 +21,7 @@
 	"content_scripts": [
 		{
 			"js": [
-				"js/jquery-1.7.min.js"
+				"js/jquery-2.0.3.min.js"
 			],
 			"matches": [
 				"*://music.google.com/*",
