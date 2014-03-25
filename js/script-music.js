@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	
-	$('#gbq1').on('click', 'a.gb_la', function(e) {
+	$('#gbq1').on('click', 'a', function(e) {
 		if ($('body').width() < 940) {
 			e.preventDefault();
 			$('#doc').toggleClass('menu-open');
