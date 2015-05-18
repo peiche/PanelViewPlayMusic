@@ -1,0 +1,25 @@
+{
+  "name": "PanelViewPlayMusic",
+  "version": "3.0.0",
+  "homepage": "https://github.com/peiche/PanelViewPlayMusic",
+  "authors": [
+    "Paul <peiche@gmail.com>"
+  ],
+  "description": "Panelized extension for Play Music",
+  "keywords": [
+    "chrome",
+    "extension",
+    "keep"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3"
+  }
+}

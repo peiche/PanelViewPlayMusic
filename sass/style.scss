@@ -1,0 +1,46 @@
+@media only screen and (max-width: 940px) {
+    
+    html {
+        min-width: 100% !important;
+    }
+    
+    #material-one-right {
+        display: none !important;
+    }
+    
+    #player {
+        min-width: 100% !important;
+    }
+    
+    .material-container-details {
+        height: auto !important;
+    }
+    
+    .material-detail-view .material-container-details .info {
+        margin: 0 !important;
+        height: auto !important;
+    }
+    
+    .material-detail-view .material-container-details .cover .card {
+        float: none !important;
+        margin: auto !important;
+        display: block !important;
+    }
+    
+    .album-view {
+        
+        .cover {
+            float: none !important;
+            // TODO: cover image still needs fixing
+        }
+        
+    }
+    
+    // hide columns in playlists and albums
+    [data-col="duration"],
+    [data-col="album"],
+    [data-col="play-count"],
+    [data-col="rating"] {
+        display: none;
+    }
+}
