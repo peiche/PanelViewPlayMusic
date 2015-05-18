@@ -1,5 +1,6 @@
 $(document).ready(function() {
 	
+    /*
 	$('#gbq1').on('click', 'a', function(e) {
 		if ($('body').width() < 940) {
 			e.preventDefault();
@@ -16,5 +17,6 @@ $(document).ready(function() {
 			$('#doc').removeClass('menu-open');
 		}
 	});
+    */
 	
 });
